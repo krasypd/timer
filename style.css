@@ -1,0 +1,50 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	height: 100vh;
+}
+
+.timer {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.svg {
+	position: relative;
+	outline: none;
+}
+.controls {
+	width: 20%;
+	height: 20rem;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+input {
+	/* border: white; */
+	text-align: center;
+	height: 15%;
+	width: 100%;
+	font-size: 4rem;
+	border: none;
+	cursor: pointer;
+}
+.play-pause {
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	font-size: 2rem;
+}
+button {
+	margin: 0.5rem;
+	background-color: white;
+	width: 4rem;
+	height: 4rem;
+	font-size: 3rem;
+	border: none;
+	cursor: pointer;
+}
